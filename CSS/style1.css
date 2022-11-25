@@ -1,0 +1,87 @@
+body{
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #E72D06;
+    background-color: rgb(241, 193, 176);
+    font-family: Georgia, serif;
+    text-align: center;
+   
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: green;
+}
+a:visited{
+    color: brown;
+}
+
+.c1{
+    color: brown;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    line-height: 1.6em;
+    text-align: justify;
+    border: indianred 3px solid;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.c2{
+    padding: 20px;
+    border: indianred 3px solid;
+    border-radius: 15px;
+}
+
+.c2 li{
+    padding-bottom: 10px;
+}
+
+ul{
+    font-size: 20px;
+}
+
+@media(min-width:468px) {
+.container{
+    width: 80%;
+    margin: auto;
+    
+}}
+
+.f1{
+    padding: 10px 20px;
+    border: indianred 3px solid;
+    border-radius: 15px;
+    text-align: center;
+}
+.fc{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    
+}
+.f1 input[type=text], input[type=password]{
+    padding: 7px;
+    width: 20%;
+    border: none;
+}
+.button input{
+    background-color: burlywood;
+    padding: 10px;
+    width: 10%;
+    border: none;
+    border-radius: 15px;
+}
+.button:hover input{
+    background-color:  darkkhaki;
+    color: white;
+    cursor: auto;
+}
+
